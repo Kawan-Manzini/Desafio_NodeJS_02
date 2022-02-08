@@ -96,9 +96,9 @@ app.listen(PORT, () => {
     var imc2 = p2 / (a2 * a2);
     var imc3 = p3 / (a3 * a3);
 
-    console.log(`(R03) IMC do ${nome1} = ${imc1} `);
-    console.log(`(R03) IMC do ${nome2} = ${imc2} `);
-    console.log(`(R03) IMC do ${nome3} = ${imc3} `);
+    console.log(`(R03) IMC do ${nome1} = ${imc1.toFixed(2)} `);
+    console.log(`(R03) IMC do ${nome2} = ${imc2.toFixed(2)} `);
+    console.log(`(R03) IMC do ${nome3} = ${imc3.toFixed(2)} `);
   }
   imc();
 
